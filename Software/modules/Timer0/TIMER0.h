@@ -2,7 +2,7 @@
 #ifndef TIMER0_H_
 #define TIMER0_H_
 
-#include "std_macros.h"
+#include "../../app/std_macros.h"
 
 extern void(*Timer0_OVF_isr_p)(void);
 extern void(*Timer0_CTC_isr_p)(void);

@@ -1,0 +1,19 @@
+CMakeFiles/TrafficLight.elf.dir/modules/Seven_Seg/SEVEN_SEG.c.obj: \
+ D:\Projects\Semi-triggerd-Traffic-Light\Software\modules\Seven_Seg\SEVEN_SEG.c \
+ D:\Projects\Semi-triggerd-Traffic-Light\Software\modules\Seven_Seg\SEVEN_SEG.h \
+ d:\projects\semi-triggerd-traffic-light\software\app\std_macros.h \
+ c:\avr-toolchain\avr8-gnu-toolchain\avr\include\avr\io.h \
+ c:\avr-toolchain\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h \
+ c:\avr-toolchain\avr8-gnu-toolchain\avr\include\inttypes.h \
+ c:\avr-toolchain\avr8-gnu-toolchain\lib\gcc\avr\7.3.0\include\stdint.h \
+ c:\avr-toolchain\avr8-gnu-toolchain\avr\include\stdint.h \
+ c:\avr-toolchain\avr8-gnu-toolchain\avr\include\avr\iom32.h \
+ c:\avr-toolchain\avr8-gnu-toolchain\avr\include\avr\portpins.h \
+ c:\avr-toolchain\avr8-gnu-toolchain\avr\include\avr\common.h \
+ c:\avr-toolchain\avr8-gnu-toolchain\avr\include\avr\version.h \
+ c:\avr-toolchain\avr8-gnu-toolchain\avr\include\avr\fuse.h \
+ c:\avr-toolchain\avr8-gnu-toolchain\avr\include\avr\lock.h \
+ c:\avr-toolchain\avr8-gnu-toolchain\avr\include\util\delay.h \
+ c:\avr-toolchain\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
+ c:\avr-toolchain\avr8-gnu-toolchain\avr\include\math.h \
+ c:\avr-toolchain\avr8-gnu-toolchain\avr\include\avr\interrupt.h

@@ -1,0 +1,5 @@
+D:/Projects/Semi-triggerd-Traffic-Light/Software/build/CMakeFiles/TrafficLight.elf.dir
+D:/Projects/Semi-triggerd-Traffic-Light/Software/build/CMakeFiles/flash.dir
+D:/Projects/Semi-triggerd-Traffic-Light/Software/build/CMakeFiles/burn.dir
+D:/Projects/Semi-triggerd-Traffic-Light/Software/build/CMakeFiles/edit_cache.dir
+D:/Projects/Semi-triggerd-Traffic-Light/Software/build/CMakeFiles/rebuild_cache.dir

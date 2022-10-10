@@ -1,0 +1,1 @@
+C:\AVR-toolchain\avr8-gnu-toolchain\bin\avr-gcc.exe -mmcu=atmega32 -Os -DF_CPU=16000000UL CMakeFiles/TrafficLight.elf.dir/app/Traffic_Light_app.c.obj CMakeFiles/TrafficLight.elf.dir/modules/Seven_Seg/SEVEN_SEG.c.obj CMakeFiles/TrafficLight.elf.dir/modules/Timer0/TIMER0.c.obj -o TrafficLight.elf 
