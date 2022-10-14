@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = 
 
-C_FLAGS = -mmcu=atmega32 -Os -DF_CPU=16000000UL
+C_FLAGS = -mmcu=atmega32 -O1 -DF_CPU=16000000UL
 

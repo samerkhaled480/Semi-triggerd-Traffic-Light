@@ -83,12 +83,12 @@ clean: CMakeFiles/burn.dir/clean
 CMakeFiles/TrafficLight.elf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficLight.elf.dir\build.make CMakeFiles/TrafficLight.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficLight.elf.dir\build.make CMakeFiles/TrafficLight.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Projects\Semi-triggerd-Traffic-Light\Software\build\CMakeFiles --progress-num=1,2,3,4 "Built target TrafficLight.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Projects\Semi-triggerd-Traffic-Light\Software\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target TrafficLight.elf"
 .PHONY : CMakeFiles/TrafficLight.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TrafficLight.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\Semi-triggerd-Traffic-Light\Software\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\Semi-triggerd-Traffic-Light\Software\build\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TrafficLight.elf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\Semi-triggerd-Traffic-Light\Software\build\CMakeFiles 0
 .PHONY : CMakeFiles/TrafficLight.elf.dir/rule
@@ -114,7 +114,7 @@ CMakeFiles/flash.dir/all: CMakeFiles/TrafficLight.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\Semi-triggerd-Traffic-Light\Software\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\Semi-triggerd-Traffic-Light\Software\build\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/flash.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\Semi-triggerd-Traffic-Light\Software\build\CMakeFiles 0
 .PHONY : CMakeFiles/flash.dir/rule
@@ -140,7 +140,7 @@ CMakeFiles/burn.dir/all: CMakeFiles/flash.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/burn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\Semi-triggerd-Traffic-Light\Software\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\Semi-triggerd-Traffic-Light\Software\build\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/burn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\Semi-triggerd-Traffic-Light\Software\build\CMakeFiles 0
 .PHONY : CMakeFiles/burn.dir/rule

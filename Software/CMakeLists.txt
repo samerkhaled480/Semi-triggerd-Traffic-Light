@@ -7,7 +7,7 @@ set(CMAKE_C_COMPILER avr-gcc CACHE STRING "C compiler" FORCE)
 set(CMAKE_OBJCOPY      avr-objcopy CACHE STRING "avr-objcopy" FORCE)
 
 #set(CMAKE_CXX_FLAGS "-mmcu=atmega32 -O1 -DF_CPU=1000000UL")
-set(CMAKE_C_FLAGS "-mmcu=atmega32 -Os -DF_CPU=16000000UL")
+set(CMAKE_C_FLAGS "-mmcu=atmega32 -O1 -DF_CPU=16000000UL")
 
 ##################################################################
 

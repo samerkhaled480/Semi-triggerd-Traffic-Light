@@ -82,10 +82,24 @@ CMakeFiles/TrafficLight.elf.dir/app/Traffic_Light_app.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TrafficLight.elf.dir/app/Traffic_Light_app.c.s"
 	C:\AVR-toolchain\avr8-gnu-toolchain\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Projects\Semi-triggerd-Traffic-Light\Software\app\Traffic_Light_app.c -o CMakeFiles\TrafficLight.elf.dir\app\Traffic_Light_app.c.s
 
+CMakeFiles/TrafficLight.elf.dir/modules/Interrupt/INTERRUPT.c.obj: CMakeFiles/TrafficLight.elf.dir/flags.make
+CMakeFiles/TrafficLight.elf.dir/modules/Interrupt/INTERRUPT.c.obj: D:/Projects/Semi-triggerd-Traffic-Light/Software/modules/Interrupt/INTERRUPT.c
+CMakeFiles/TrafficLight.elf.dir/modules/Interrupt/INTERRUPT.c.obj: CMakeFiles/TrafficLight.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\Semi-triggerd-Traffic-Light\Software\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/TrafficLight.elf.dir/modules/Interrupt/INTERRUPT.c.obj"
+	C:\AVR-toolchain\avr8-gnu-toolchain\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TrafficLight.elf.dir/modules/Interrupt/INTERRUPT.c.obj -MF CMakeFiles\TrafficLight.elf.dir\modules\Interrupt\INTERRUPT.c.obj.d -o CMakeFiles\TrafficLight.elf.dir\modules\Interrupt\INTERRUPT.c.obj -c D:\Projects\Semi-triggerd-Traffic-Light\Software\modules\Interrupt\INTERRUPT.c
+
+CMakeFiles/TrafficLight.elf.dir/modules/Interrupt/INTERRUPT.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TrafficLight.elf.dir/modules/Interrupt/INTERRUPT.c.i"
+	C:\AVR-toolchain\avr8-gnu-toolchain\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Projects\Semi-triggerd-Traffic-Light\Software\modules\Interrupt\INTERRUPT.c > CMakeFiles\TrafficLight.elf.dir\modules\Interrupt\INTERRUPT.c.i
+
+CMakeFiles/TrafficLight.elf.dir/modules/Interrupt/INTERRUPT.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TrafficLight.elf.dir/modules/Interrupt/INTERRUPT.c.s"
+	C:\AVR-toolchain\avr8-gnu-toolchain\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Projects\Semi-triggerd-Traffic-Light\Software\modules\Interrupt\INTERRUPT.c -o CMakeFiles\TrafficLight.elf.dir\modules\Interrupt\INTERRUPT.c.s
+
 CMakeFiles/TrafficLight.elf.dir/modules/Seven_Seg/SEVEN_SEG.c.obj: CMakeFiles/TrafficLight.elf.dir/flags.make
 CMakeFiles/TrafficLight.elf.dir/modules/Seven_Seg/SEVEN_SEG.c.obj: D:/Projects/Semi-triggerd-Traffic-Light/Software/modules/Seven_Seg/SEVEN_SEG.c
 CMakeFiles/TrafficLight.elf.dir/modules/Seven_Seg/SEVEN_SEG.c.obj: CMakeFiles/TrafficLight.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\Semi-triggerd-Traffic-Light\Software\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/TrafficLight.elf.dir/modules/Seven_Seg/SEVEN_SEG.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\Semi-triggerd-Traffic-Light\Software\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/TrafficLight.elf.dir/modules/Seven_Seg/SEVEN_SEG.c.obj"
 	C:\AVR-toolchain\avr8-gnu-toolchain\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TrafficLight.elf.dir/modules/Seven_Seg/SEVEN_SEG.c.obj -MF CMakeFiles\TrafficLight.elf.dir\modules\Seven_Seg\SEVEN_SEG.c.obj.d -o CMakeFiles\TrafficLight.elf.dir\modules\Seven_Seg\SEVEN_SEG.c.obj -c D:\Projects\Semi-triggerd-Traffic-Light\Software\modules\Seven_Seg\SEVEN_SEG.c
 
 CMakeFiles/TrafficLight.elf.dir/modules/Seven_Seg/SEVEN_SEG.c.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/TrafficLight.elf.dir/modules/Seven_Seg/SEVEN_SEG.c.s: cmake_force
 CMakeFiles/TrafficLight.elf.dir/modules/Timer0/TIMER0.c.obj: CMakeFiles/TrafficLight.elf.dir/flags.make
 CMakeFiles/TrafficLight.elf.dir/modules/Timer0/TIMER0.c.obj: D:/Projects/Semi-triggerd-Traffic-Light/Software/modules/Timer0/TIMER0.c
 CMakeFiles/TrafficLight.elf.dir/modules/Timer0/TIMER0.c.obj: CMakeFiles/TrafficLight.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\Semi-triggerd-Traffic-Light\Software\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/TrafficLight.elf.dir/modules/Timer0/TIMER0.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\Semi-triggerd-Traffic-Light\Software\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/TrafficLight.elf.dir/modules/Timer0/TIMER0.c.obj"
 	C:\AVR-toolchain\avr8-gnu-toolchain\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TrafficLight.elf.dir/modules/Timer0/TIMER0.c.obj -MF CMakeFiles\TrafficLight.elf.dir\modules\Timer0\TIMER0.c.obj.d -o CMakeFiles\TrafficLight.elf.dir\modules\Timer0\TIMER0.c.obj -c D:\Projects\Semi-triggerd-Traffic-Light\Software\modules\Timer0\TIMER0.c
 
 CMakeFiles/TrafficLight.elf.dir/modules/Timer0/TIMER0.c.i: cmake_force
@@ -110,21 +124,39 @@ CMakeFiles/TrafficLight.elf.dir/modules/Timer0/TIMER0.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TrafficLight.elf.dir/modules/Timer0/TIMER0.c.s"
 	C:\AVR-toolchain\avr8-gnu-toolchain\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Projects\Semi-triggerd-Traffic-Light\Software\modules\Timer0\TIMER0.c -o CMakeFiles\TrafficLight.elf.dir\modules\Timer0\TIMER0.c.s
 
+CMakeFiles/TrafficLight.elf.dir/modules/Timer2/TIMER2.c.obj: CMakeFiles/TrafficLight.elf.dir/flags.make
+CMakeFiles/TrafficLight.elf.dir/modules/Timer2/TIMER2.c.obj: D:/Projects/Semi-triggerd-Traffic-Light/Software/modules/Timer2/TIMER2.c
+CMakeFiles/TrafficLight.elf.dir/modules/Timer2/TIMER2.c.obj: CMakeFiles/TrafficLight.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\Semi-triggerd-Traffic-Light\Software\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/TrafficLight.elf.dir/modules/Timer2/TIMER2.c.obj"
+	C:\AVR-toolchain\avr8-gnu-toolchain\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TrafficLight.elf.dir/modules/Timer2/TIMER2.c.obj -MF CMakeFiles\TrafficLight.elf.dir\modules\Timer2\TIMER2.c.obj.d -o CMakeFiles\TrafficLight.elf.dir\modules\Timer2\TIMER2.c.obj -c D:\Projects\Semi-triggerd-Traffic-Light\Software\modules\Timer2\TIMER2.c
+
+CMakeFiles/TrafficLight.elf.dir/modules/Timer2/TIMER2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TrafficLight.elf.dir/modules/Timer2/TIMER2.c.i"
+	C:\AVR-toolchain\avr8-gnu-toolchain\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Projects\Semi-triggerd-Traffic-Light\Software\modules\Timer2\TIMER2.c > CMakeFiles\TrafficLight.elf.dir\modules\Timer2\TIMER2.c.i
+
+CMakeFiles/TrafficLight.elf.dir/modules/Timer2/TIMER2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TrafficLight.elf.dir/modules/Timer2/TIMER2.c.s"
+	C:\AVR-toolchain\avr8-gnu-toolchain\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Projects\Semi-triggerd-Traffic-Light\Software\modules\Timer2\TIMER2.c -o CMakeFiles\TrafficLight.elf.dir\modules\Timer2\TIMER2.c.s
+
 # Object files for target TrafficLight.elf
 TrafficLight_elf_OBJECTS = \
 "CMakeFiles/TrafficLight.elf.dir/app/Traffic_Light_app.c.obj" \
+"CMakeFiles/TrafficLight.elf.dir/modules/Interrupt/INTERRUPT.c.obj" \
 "CMakeFiles/TrafficLight.elf.dir/modules/Seven_Seg/SEVEN_SEG.c.obj" \
-"CMakeFiles/TrafficLight.elf.dir/modules/Timer0/TIMER0.c.obj"
+"CMakeFiles/TrafficLight.elf.dir/modules/Timer0/TIMER0.c.obj" \
+"CMakeFiles/TrafficLight.elf.dir/modules/Timer2/TIMER2.c.obj"
 
 # External object files for target TrafficLight.elf
 TrafficLight_elf_EXTERNAL_OBJECTS =
 
 TrafficLight.elf: CMakeFiles/TrafficLight.elf.dir/app/Traffic_Light_app.c.obj
+TrafficLight.elf: CMakeFiles/TrafficLight.elf.dir/modules/Interrupt/INTERRUPT.c.obj
 TrafficLight.elf: CMakeFiles/TrafficLight.elf.dir/modules/Seven_Seg/SEVEN_SEG.c.obj
 TrafficLight.elf: CMakeFiles/TrafficLight.elf.dir/modules/Timer0/TIMER0.c.obj
+TrafficLight.elf: CMakeFiles/TrafficLight.elf.dir/modules/Timer2/TIMER2.c.obj
 TrafficLight.elf: CMakeFiles/TrafficLight.elf.dir/build.make
 TrafficLight.elf: CMakeFiles/TrafficLight.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects\Semi-triggerd-Traffic-Light\Software\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable TrafficLight.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects\Semi-triggerd-Traffic-Light\Software\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable TrafficLight.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TrafficLight.elf.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

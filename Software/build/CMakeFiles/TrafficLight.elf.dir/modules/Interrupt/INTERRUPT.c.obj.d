@@ -1,7 +1,7 @@
-CMakeFiles/TrafficLight.elf.dir/app/Traffic_Light_app.c.obj: \
- D:\Projects\Semi-triggerd-Traffic-Light\Software\app\Traffic_Light_app.c \
- D:\Projects\Semi-triggerd-Traffic-Light\Software\app\Traffic_Light_app.h \
- D:\Projects\Semi-triggerd-Traffic-Light\Software\app\std_macros.h \
+CMakeFiles/TrafficLight.elf.dir/modules/Interrupt/INTERRUPT.c.obj: \
+ D:\Projects\Semi-triggerd-Traffic-Light\Software\modules\Interrupt\INTERRUPT.c \
+ D:\Projects\Semi-triggerd-Traffic-Light\Software\modules\Interrupt\INTERRUPT.h \
+ d:\projects\semi-triggerd-traffic-light\software\app\std_macros.h \
  c:\avr-toolchain\avr8-gnu-toolchain\avr\include\avr\io.h \
  c:\avr-toolchain\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h \
  c:\avr-toolchain\avr8-gnu-toolchain\avr\include\inttypes.h \
@@ -16,10 +16,4 @@ CMakeFiles/TrafficLight.elf.dir/app/Traffic_Light_app.c.obj: \
  c:\avr-toolchain\avr8-gnu-toolchain\avr\include\util\delay.h \
  c:\avr-toolchain\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
  c:\avr-toolchain\avr8-gnu-toolchain\avr\include\math.h \
- c:\avr-toolchain\avr8-gnu-toolchain\avr\include\avr\interrupt.h \
- d:\projects\semi-triggerd-traffic-light\software\modules\seven_seg\seven_seg.h \
- d:\projects\semi-triggerd-traffic-light\software\app\std_macros.h \
- d:\projects\semi-triggerd-traffic-light\software\modules\interrupt\interrupt.h \
- d:\projects\semi-triggerd-traffic-light\software\app\std_macros.h \
- d:\projects\semi-triggerd-traffic-light\software\modules\timer0\timer0.h \
- d:\projects\semi-triggerd-traffic-light\software\app\std_macros.h
+ c:\avr-toolchain\avr8-gnu-toolchain\avr\include\avr\interrupt.h

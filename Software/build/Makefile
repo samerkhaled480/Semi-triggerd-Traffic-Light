@@ -178,6 +178,30 @@ app/Traffic_Light_app.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficLight.elf.dir\build.make CMakeFiles/TrafficLight.elf.dir/app/Traffic_Light_app.c.s
 .PHONY : app/Traffic_Light_app.c.s
 
+modules/Interrupt/INTERRUPT.obj: modules/Interrupt/INTERRUPT.c.obj
+.PHONY : modules/Interrupt/INTERRUPT.obj
+
+# target to build an object file
+modules/Interrupt/INTERRUPT.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficLight.elf.dir\build.make CMakeFiles/TrafficLight.elf.dir/modules/Interrupt/INTERRUPT.c.obj
+.PHONY : modules/Interrupt/INTERRUPT.c.obj
+
+modules/Interrupt/INTERRUPT.i: modules/Interrupt/INTERRUPT.c.i
+.PHONY : modules/Interrupt/INTERRUPT.i
+
+# target to preprocess a source file
+modules/Interrupt/INTERRUPT.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficLight.elf.dir\build.make CMakeFiles/TrafficLight.elf.dir/modules/Interrupt/INTERRUPT.c.i
+.PHONY : modules/Interrupt/INTERRUPT.c.i
+
+modules/Interrupt/INTERRUPT.s: modules/Interrupt/INTERRUPT.c.s
+.PHONY : modules/Interrupt/INTERRUPT.s
+
+# target to generate assembly for a file
+modules/Interrupt/INTERRUPT.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficLight.elf.dir\build.make CMakeFiles/TrafficLight.elf.dir/modules/Interrupt/INTERRUPT.c.s
+.PHONY : modules/Interrupt/INTERRUPT.c.s
+
 modules/Seven_Seg/SEVEN_SEG.obj: modules/Seven_Seg/SEVEN_SEG.c.obj
 .PHONY : modules/Seven_Seg/SEVEN_SEG.obj
 
@@ -226,6 +250,30 @@ modules/Timer0/TIMER0.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficLight.elf.dir\build.make CMakeFiles/TrafficLight.elf.dir/modules/Timer0/TIMER0.c.s
 .PHONY : modules/Timer0/TIMER0.c.s
 
+modules/Timer2/TIMER2.obj: modules/Timer2/TIMER2.c.obj
+.PHONY : modules/Timer2/TIMER2.obj
+
+# target to build an object file
+modules/Timer2/TIMER2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficLight.elf.dir\build.make CMakeFiles/TrafficLight.elf.dir/modules/Timer2/TIMER2.c.obj
+.PHONY : modules/Timer2/TIMER2.c.obj
+
+modules/Timer2/TIMER2.i: modules/Timer2/TIMER2.c.i
+.PHONY : modules/Timer2/TIMER2.i
+
+# target to preprocess a source file
+modules/Timer2/TIMER2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficLight.elf.dir\build.make CMakeFiles/TrafficLight.elf.dir/modules/Timer2/TIMER2.c.i
+.PHONY : modules/Timer2/TIMER2.c.i
+
+modules/Timer2/TIMER2.s: modules/Timer2/TIMER2.c.s
+.PHONY : modules/Timer2/TIMER2.s
+
+# target to generate assembly for a file
+modules/Timer2/TIMER2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficLight.elf.dir\build.make CMakeFiles/TrafficLight.elf.dir/modules/Timer2/TIMER2.c.s
+.PHONY : modules/Timer2/TIMER2.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -240,12 +288,18 @@ help:
 	@echo ... app/Traffic_Light_app.obj
 	@echo ... app/Traffic_Light_app.i
 	@echo ... app/Traffic_Light_app.s
+	@echo ... modules/Interrupt/INTERRUPT.obj
+	@echo ... modules/Interrupt/INTERRUPT.i
+	@echo ... modules/Interrupt/INTERRUPT.s
 	@echo ... modules/Seven_Seg/SEVEN_SEG.obj
 	@echo ... modules/Seven_Seg/SEVEN_SEG.i
 	@echo ... modules/Seven_Seg/SEVEN_SEG.s
 	@echo ... modules/Timer0/TIMER0.obj
 	@echo ... modules/Timer0/TIMER0.i
 	@echo ... modules/Timer0/TIMER0.s
+	@echo ... modules/Timer2/TIMER2.obj
+	@echo ... modules/Timer2/TIMER2.i
+	@echo ... modules/Timer2/TIMER2.s
 .PHONY : help
 
 
